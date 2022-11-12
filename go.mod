@@ -1,4 +1,4 @@
-module github.com/brokeyourbike/ginapigatewaymw
+module github.com/brokeyourbike/gin-gcp-api-gateway-middleware
 
 go 1.19
 

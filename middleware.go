@@ -1,4 +1,4 @@
-package ginapigatewaymw
+package gingcpapigatewaymw
 
 import (
 	"bytes"
