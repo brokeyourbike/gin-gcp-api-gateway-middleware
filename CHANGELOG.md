@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.1.0...v0.1.1) (2022-11-12)
+
+
+### Bug Fixes
+
+* use correct path ([172de72](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/commit/172de722e848a58ac5cc3f0761d42b72d6c110aa))
+
 ## 0.1.0 (2022-11-12)
 
 
