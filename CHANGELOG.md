@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.1.1...v0.2.0) (2022-11-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* `gcpapigatewaymw`
+
+### Bug Fixes
+
+* `gcpapigatewaymw` ([27969c7](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/commit/27969c7681b54dd289d2dd6a604b6ee4ef76a12d))
+
 ### [0.1.1](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.1.0...v0.1.1) (2022-11-12)
 
 
