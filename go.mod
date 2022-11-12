@@ -1,4 +1,4 @@
-module github.com/brokeyourbike/gingcpapigatewaymw
+module github.com/brokeyourbike/ginapigatewaymw
 
 go 1.19
 
