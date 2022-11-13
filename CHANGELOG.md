@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.2.0...v0.2.1) (2022-11-13)
+
+
+### Bug Fixes
+
+* add email ([23c76de](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/commit/23c76def4d13afa0a0f9bf98b0b103c496f941b5))
+
 ## [0.2.0](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.1.1...v0.2.0) (2022-11-12)
 
 
