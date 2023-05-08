@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.3.0...v0.3.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* update deps ([370c9bc](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/commit/370c9bc81438e6ba5447079c26047f11be00691a))
+
 ## [0.3.0](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.2.0...v0.3.0) (2022-11-14)
 
 
