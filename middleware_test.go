@@ -68,10 +68,10 @@ func TestMiddleware(t *testing.T) {
 			router.Use(gcpapigatewaymw.Middleware())
 			router.GET("/", func(ctx *gin.Context) {
 				info := gcpapigatewaymw.GetGatewayUserInfo(ctx)
-				assert.Equal(t, "c2133353-6547-4429-a453-4c8fa2fdbacd", info.Sub.String())
+				assert.Equal(t, "c2133353-6547-4429-a453-4c8fa2fdbacd", info.Sub)
 
 				id := gcpapigatewaymw.GetGatewayUserID(ctx)
-				assert.Equal(t, "c2133353-6547-4429-a453-4c8fa2fdbacd", id.String())
+				assert.Equal(t, "c2133353-6547-4429-a453-4c8fa2fdbacd", id)
 
 				ctx.String(http.StatusOK, "the end.")
 			})

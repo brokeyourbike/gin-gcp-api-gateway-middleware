@@ -8,7 +8,6 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"github.com/google/uuid"
 )
 
 // gatewayUserInfoHeader is the header that contains the user info.
@@ -18,8 +17,8 @@ const gatewayUserInfoHeader = "X-Apigateway-Api-Userinfo"
 const gatewayUserInfoCtx = "gatewayUserInfo"
 
 type GatewayUserInfo struct {
-	Sub   uuid.UUID `json:"sub" binding:"required"`
-	Email string    `json:"email" binding:"required,email"`
+	Sub   string `json:"sub" binding:"required"`
+	Email string `json:"email" binding:"required,email"`
 }
 
 // Middleware creates a new GatewayCtx middleware.
@@ -63,7 +62,7 @@ func GetGatewayUserInfo(ctx *gin.Context) GatewayUserInfo {
 }
 
 // GetGatewayUserID returns the user ID from the context.
-func GetGatewayUserID(ctx *gin.Context) uuid.UUID {
+func GetGatewayUserID(ctx *gin.Context) string {
 	userInfo := GetGatewayUserInfo(ctx)
 	return userInfo.Sub
 }

@@ -20,12 +20,11 @@ jobs:
     - run: go build -v ./...
     - run: go test -race -covermode=atomic -coverprofile=coverage.out -v ./...
 
-    - uses: paambaati/codeclimate-action@v3.0.0
+    - uses: paambaati/codeclimate-action@v4
       continue-on-error: true
       env:
         CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}
       with:
-        coverageCommand: ''
         prefix: 'github.com/brokeyourbike/gin-gcp-api-gateway-middleware'
         coverageLocations: ./coverage.out:gocov
 
