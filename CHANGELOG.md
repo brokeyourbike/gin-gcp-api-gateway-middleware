@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.3.1...v0.4.0) (2023-07-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* do not return uuid
+
+### Features
+
+* do not return uuid ([c8c3c87](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/commit/c8c3c871a94d8eaf28490000bdce3a0f5fc19fa3))
+
+
+### Bug Fixes
+
+* tidy ([ca4354d](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/commit/ca4354dd3bb136308923b4e62f0452a4002056b0))
+
 ### [0.3.1](https://www.github.com/brokeyourbike/gin-gcp-api-gateway-middleware/compare/v0.3.0...v0.3.1) (2023-05-08)
 
 
