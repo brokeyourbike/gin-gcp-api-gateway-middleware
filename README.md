@@ -7,6 +7,12 @@
 
 Middleware to insert GCP API Gateway user info to the context
 
+## Installation
+
+```
+go get github.com/brokeyourbike/gin-gcp-api-gateway-middleware
+```
+
 ## Authors
 - [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [LinkedIn](https://www.linkedin.com/in/brokeyourbike) | [stasi.uk](https://stasi.uk)
 
